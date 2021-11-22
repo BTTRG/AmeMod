@@ -1,6 +1,7 @@
 {
 	"songs": [
-		["Chill", "dad", [146, 113, 253]]
+		["Sunrise", "dad", [146, 113, 253]],
+		["Sunset", "dad", [146, 113, 253]]
 	],
 
 	"weekCharacters": [
@@ -10,7 +11,7 @@
 	],
 	"weekBackground": "stage",
 
-	"storyName": "Ame",
+	"storyName": "failed NNN",
 	"weekBefore": "tutorial",
 	"weekName": "Week 1",
 	"startUnlocked": true,
