@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Ame IDLE"
+		},
+		{
+			"offsets": [
+				52,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Ame LEFT"
+		},
+		{
+			"offsets": [
+				-81,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Ame right"
+		},
+		{
+			"offsets": [
+				-110,
+				-110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Ame Down"
+		},
+		{
+			"offsets": [
+				-40,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Ame Up"
+		},
+		{
+			"offsets": [
+				52,
+				-6
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [],
+			"name": "Ame LEFT"
+		},
+		{
+			"offsets": [
+				-81,
+				-20
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [],
+			"name": "Ame right"
+		},
+		{
+			"offsets": [
+				-110,
+				-110
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [],
+			"name": "Ame Down"
+		},
+		{
+			"offsets": [
+				-40,
+				-9
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [],
+			"name": "Ame Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ame",
+	"position": [
+		-90,
+		20
+	],
+	"healthicon": "ame",
+	"flip_x": false,
+	"healthbar_colors": [
+		102,
+		153,
+		204
+	],
+	"camera_position": [
+		-10,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
