@@ -1,110 +1,130 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Ame IDLE"
+			"fps": 24,
+			"name": "Ame IDLE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				52,
 				-6
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Ame LEFT"
+			"fps": 24,
+			"name": "Ame LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-81,
 				-20
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Ame right"
+			"fps": 24,
+			"name": "Ame right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-110,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Ame Down"
+			"fps": 24,
+			"name": "Ame Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-40,
 				-9
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Ame Up"
+			"fps": 24,
+			"name": "Ame Up",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				52,
 				-6
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "singLEFT-loop",
-			"indices": [],
-			"name": "Ame LEFT"
+			"fps": 24,
+			"name": "Ame LEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-81,
 				-20
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "singRIGHT-loop",
-			"indices": [],
-			"name": "Ame right"
+			"fps": 24,
+			"name": "Ame right",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-110,
 				-110
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "singDOWN-loop",
-			"indices": [],
-			"name": "Ame Down"
+			"fps": 24,
+			"name": "Ame Down",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-40,
 				-9
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "singUP-loop",
-			"indices": [],
-			"name": "Ame Up"
+			"fps": 24,
+			"name": "Ame Up",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Ame",
 	"position": [
-		-90,
-		20
+		-110,
+		40
 	],
 	"healthicon": "ame",
 	"flip_x": false,
@@ -114,8 +134,8 @@
 		204
 	],
 	"camera_position": [
-		-10,
-		60
+		-50,
+		80
 	],
 	"sing_duration": 4,
 	"scale": 1
