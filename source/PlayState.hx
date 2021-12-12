@@ -600,7 +600,7 @@ class PlayState extends MusicBeatState
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
 				GameOverSubstate.characterName = 'bf-pixel-dead';
 
-				/*if(!ClientPrefs.lowQuality) { //Does this even do something?
+				/*if(!ClientPrefs.lowQuality) { //Does this even do something? //No, it doesn't
 					var waveEffectBG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 3, 2);
 					var waveEffectFG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 5, 2);
 				}*/
@@ -625,6 +625,37 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+				
+			case 'beach': // Week 42069 (ame's week)
+				var letrollissky:BGSprite = new BGSprite('ame/sky', -1333, -350, 0.4, 0.4);
+				letrollissky.updateHitbox();
+				add(letrollissky);
+				
+				var letrollisshore:BGSprite = new BGSprite('ame/beach', -1333, -350, 0.9, 0.9);
+				letrollisshore.updateHitbox();
+				add(letrollisshore);
+
+				/*var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
+				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+				stageFront.updateHitbox();
+				add(stageFront);
+
+				if(!ClientPrefs.lowQuality) {
+					var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
+					stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+					stageLight.updateHitbox();
+					add(stageLight);
+					var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
+					stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+					stageLight.updateHitbox();
+					stageLight.flipX = true;
+					add(stageLight);
+
+					var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
+					stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+					stageCurtains.updateHitbox();
+					add(stageCurtains);
+				}*/
 		}
 
 		if(isPixelStage) {
@@ -1944,6 +1975,13 @@ class PlayState extends MusicBeatState
 		}
 
 		super.update(elapsed);
+
+		#if debug
+		if(FlxG.keys.pressed.I)
+			defaultCamZoom += 0.1;
+		if(FlxG.keys.pressed.O)
+			defaultCamZoom -= 0.1;
+		#end
 
 		if(ratingString == '?') {
 			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingString;
