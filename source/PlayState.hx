@@ -630,6 +630,10 @@ class PlayState extends MusicBeatState
 				var letrollissky:BGSprite = new BGSprite('ame/sky', -1333, -350, 0.4, 0.4);
 				letrollissky.updateHitbox();
 				add(letrollissky);
+
+				var letrolliswater:BGSprite = new BGSprite('ame/HelloIamUnderTheWater', -1333, -350, 0.6, 0.6);
+				letrolliswater.updateHitbox();
+				add(letrolliswater);
 				
 				var letrollisshore:BGSprite = new BGSprite('ame/beach', -1333, -350, 0.9, 0.9);
 				letrollisshore.updateHitbox();
