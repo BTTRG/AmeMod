@@ -1,16 +1,16 @@
 package;
 
-import Conductor.BPMChangeEvent;
+//import Conductor.BPMChangeEvent;
 import flixel.FlxG;
-import flixel.addons.ui.FlxUIState;
-import flixel.math.FlxRect;
-import flixel.util.FlxTimer;
-import flixel.addons.transition.FlxTransitionableState;
+//import flixel.addons.ui.FlxUIState;
+//import flixel.math.FlxRect;
+//import flixel.util.FlxTimer;
+//import flixel.addons.transition.FlxTransitionableState;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxGradient;
-import flixel.FlxSubState;
+//import flixel.FlxSubState;
 import flixel.FlxSprite;
 import flixel.FlxCamera;
 
@@ -24,7 +24,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 
 	public function new(duration:Float, isTransIn:Bool) {
 		super();
-
+		trace('among us');
 		this.isTransIn = isTransIn;
 		var zoom:Float = CoolUtil.boundTo(FlxG.camera.zoom, 0.05, 1);
 		var width:Int = Std.int(FlxG.width / zoom);

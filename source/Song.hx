@@ -2,8 +2,8 @@ package;
 
 import Section.SwagSection;
 import haxe.Json;
-import haxe.format.JsonParser;
-import lime.utils.Assets;
+//import haxe.format.JsonParser;
+//import lime.utils.Assets;
 
 #if sys
 import sys.io.File;

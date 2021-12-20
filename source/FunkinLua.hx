@@ -5,19 +5,19 @@ import llua.State;
 import llua.Convert;
 #end
 
-import flixel.FlxG;
-import flixel.tweens.FlxTween;
+//import flixel.FlxG;
+//import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
 import flixel.text.FlxText;
 import flixel.group.FlxGroup.FlxTypedGroup;
-import flixel.math.FlxPoint;
-import flixel.system.FlxSound;
+//import flixel.math.FlxPoint;
+//import flixel.system.FlxSound;
 import flixel.util.FlxTimer;
-import flixel.FlxSprite;
+//import flixel.FlxSprite;
 import flixel.FlxCamera;
 import flixel.util.FlxColor;
-import flixel.FlxBasic;
-import flixel.FlxObject;
+//import flixel.FlxBasic;
+//import flixel.FlxObject;
 import flixel.FlxSprite;
 import openfl.display.BlendMode;
 #if sys
